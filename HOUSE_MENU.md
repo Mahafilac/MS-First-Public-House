@@ -31,7 +31,7 @@ Prices round to tens.
 | Commission, video | one short clip | Penny | $75 |
 | Words / public page | the copy, drafted and set | Maynard | from $25 |
 
-Card checkout: opening soon. Token lines are open today.
+Card checkout: live. Open a line; a secure card link goes out for the line you choose, per agreed deal. Token lines are open today.
 
 Any line above $200: split into milestones, quote before we start.
 
