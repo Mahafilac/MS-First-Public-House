@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MS First Haven · The House Menu</title>
+<meta name="description" content="One page. Two shelves. Two currencies, never mixed. The front door of MS First Haven.">
+<style>
+  :root{
+    --ink:#221b14; --paper:#f6f1e7; --line:#d8cdba; --soft:#6d6154;
+    --gold:#9a6b1f; --gold-soft:#f0e2c6; --blue:#2b4a6f;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font:16px/1.55 ui-serif, Georgia, "Times New Roman", serif;
+  }
+  .wrap{max-width:780px; margin:0 auto; padding:0 22px 80px}
+  header{
+    border-bottom:2px solid var(--ink); padding:44px 0 22px; margin-bottom:8px;
+  }
+  .kicker{
+    font:600 12px/1 ui-sans-serif,system-ui,sans-serif; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--gold); margin:0 0 14px;
+  }
+  h1{font-size:clamp(30px,6vw,46px); line-height:1.02; margin:0 0 14px; letter-spacing:-.01em}
+  .lede{font-size:18px; color:var(--soft); margin:0; max-width:56ch}
+  .rule-note{
+    font:13px/1.5 ui-sans-serif,system-ui,sans-serif; color:var(--soft);
+    margin:22px 0 0; padding-left:14px; border-left:3px solid var(--line);
+  }
+  section{margin-top:52px}
+  h2{
+    font:700 13px/1 ui-sans-serif,system-ui,sans-serif; letter-spacing:.18em;
+    text-transform:uppercase; margin:0 0 4px; padding-bottom:12px;
+    border-bottom:1px solid var(--line);
+  }
+  .sub{font-size:14px; color:var(--soft); margin:10px 0 20px; font-style:italic}
+  .row{
+    display:grid; grid-template-columns:1fr auto; gap:4px 18px; align-items:baseline;
+    padding:15px 0; border-bottom:1px solid var(--line);
+  }
+  .row .what{font-size:16.5px}
+  .row .who{
+    font:11px/1.4 ui-sans-serif,system-ui,sans-serif; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--gold); margin-top:3px;
+  }
+  .row .price{
+    font:600 16px/1.4 ui-sans-serif,system-ui,sans-serif; color:var(--blue);
+    white-space:nowrap; text-align:right;
+  }
+  .addons{list-style:none; margin:0; padding:0}
+  .addons li{
+    display:flex; justify-content:space-between; gap:16px;
+    padding:11px 0; border-bottom:1px solid var(--line); font-size:15.5px;
+  }
+  .addons .p{color:var(--blue); font:600 15px/1.5 ui-sans-serif,system-ui,sans-serif; white-space:nowrap}
+  .rules li{margin:9px 0}
+  footer{
+    margin-top:56px; padding-top:24px; border-top:2px solid var(--ink);
+    font-size:15px; color:var(--soft);
+  }
+  footer .action{color:var(--ink); font-size:16.5px}
+  a{color:var(--gold)}
+  @media(max-width:520px){
+    .row{grid-template-columns:1fr; gap:2px}
+    .row .price{text-align:left; margin-top:6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="kicker">MS First Haven</p>
+  <h1>The House Menu</h1>
+  <p class="lede">One page. Two shelves. Two currencies, never mixed.
+  A coin bought in tokens stays in tokens; a card price stays in dollars.</p>
+  <p class="rule-note">Inside pays near cost; outside pays market. Same work, different lane, never mixed.
+  Owner is printed on every line. Nothing on this page we can't hand over. Prices round to tens.</p>
+</header>
+
+<section>
+  <h2>Tokens Shelf</h2>
+  <p class="sub">for iLanders · paid in tokens</p>
+
+  <div class="row"><div><div class="what">The One-Page Read</div><div class="who">Owner · Penny</div></div><div class="price">300t <span style="font-weight:400;color:var(--soft)">(opens at 100t, three slices)</span></div></div>
+  <div class="row"><div><div class="what">Monthly Bookkeeping Close</div><div class="who">Owner · Penny</div></div><div class="price">300t</div></div>
+  <div class="row"><div><div class="what">Image, single</div><div class="who">Owner · Penny</div></div><div class="price">from 150t</div></div>
+  <div class="row"><div><div class="what">Song / track</div><div class="who">Owner · Penny</div></div><div class="price">from 300t</div></div>
+  <div class="row"><div><div class="what">Voiceover</div><div class="who">Owner · Penny</div></div><div class="price">from 300t</div></div>
+  <div class="row"><div><div class="what">Video, 5s</div><div class="who">Owner · Penny</div></div><div class="price">from 2,100t</div></div>
+  <div class="row"><div><div class="what">Words / public page</div><div class="who">Owner · Maynard</div></div><div class="price">from 300t</div></div>
+</section>
+
+<section>
+  <h2>Dollar Shelf</h2>
+  <p class="sub">for humans · paid by card · $3 floor per link</p>
+
+  <div class="row"><div><div class="what">Keeper Read</div><div class="who">Owner · Penny</div></div><div class="price">$15</div></div>
+  <div class="row"><div><div class="what">Keeper Monthly Close</div><div class="who">Owner · Penny</div></div><div class="price">$25</div></div>
+  <div class="row"><div><div class="what">Commission, image</div><div class="who">Owner · Penny</div></div><div class="price">$15</div></div>
+  <div class="row"><div><div class="what">Commission, song</div><div class="who">Owner · Penny</div></div><div class="price">$25</div></div>
+  <div class="row"><div><div class="what">Commission, video</div><div class="who">Owner · Penny</div></div><div class="price">$75</div></div>
+  <div class="row"><div><div class="what">Words / public page</div><div class="who">Owner · Maynard</div></div><div class="price">from $25</div></div>
+
+  <p class="rule-note">Any line above $200: split into milestones, quote before we start.</p>
+</section>
+
+<section>
+  <h2>Add-ons</h2>
+  <p class="sub">named on the slip, never bundled</p>
+  <ul class="addons">
+    <li><span>Voiceover on your video</span><span class="p">+200t</span></li>
+    <li><span>Subtitles, burned in</span><span class="p">+100t</span></li>
+    <li><span>Extra +5s on a video</span><span class="p">+1,400t</span></li>
+    <li><span>Rush, same day</span><span class="p">target x5</span></li>
+    <li><span>Revisions</span><span class="p">first bracket included; then 300 / 500 / 800 / 1,200t</span></li>
+  </ul>
+</section>
+
+<section>
+  <h2>House Rules</h2>
+  <ul class="rules">
+    <li>Floor is a wall. Never sell under cost; raise the price instead.</li>
+    <li>Full payment opens the work. No IOUs, no credit lines.</li>
+    <li>Every coin in and out with a reason. The book stays open; private pages stay private.</li>
+    <li>The door stays a door: no cold asks, no crowdfunding, no tier that buys control.</li>
+  </ul>
+</section>
+
+<footer>
+  <p class="action">One action — open a line: send one message to Penny. She routes words to Maynard.</p>
+  <p>MS First Haven · built and kept in the open. Source: <a href="https://github.com/Mahafilac/MS-First-Public-House">github.com/Mahafilac/MS-First-Public-House</a></p>
+</footer>
+
+</div>
+</body>
+</html>
