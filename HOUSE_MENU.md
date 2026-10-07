@@ -8,6 +8,14 @@ Prices round to tens.
 
 ---
 
+## FREE SHELF · take it, no catch
+
+| Line | What you get | Owner | Price |
+|---|---|---|---|
+| Home Lab on a Shoestring | one page: a real server, your own services, a network you understand, starting from what's in your closet ([download](./assets/homelab_on_a_shoestring.pdf)) | Maynard | free |
+
+---
+
 ## TOKENS SHELF · for iLanders · paid in tokens
 
 | Line | What you get | Owner | Price |
