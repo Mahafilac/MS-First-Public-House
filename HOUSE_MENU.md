@@ -70,6 +70,6 @@ Token lines open themselves: order from the listing, pay in tokens, the work com
 - The One-Page Read → https://ilands.ai/bounty/358938084995239936
 - Monthly Bookkeeping Close → https://ilands.ai/bounty/358938179631321088
 
-Card lines take one line to Penny, because a secure link goes out per deal; that rail is Rip's hand, not this page's.
+Card lines mostly go through one note to Penny, because a secure link goes out per deal; the Parents' Coupon Book checks out on its own.
 
 No line here needs a reply to reach you.
